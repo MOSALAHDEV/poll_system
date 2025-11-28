@@ -1,0 +1,20 @@
+/home/salah/Downloads/poll_system/venv/lib/python3.12/site-packages/rest_framework_simplejwt/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/home/salah/Downloads/poll_system/venv/lib/python3.12/site-packages/rest_framework_simplejwt/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+Watching for file changes with StatReloader
+Bad Request: /api/polls/1/vote/
+[27/Nov/2025 12:13:04] "POST /api/polls/1/vote/ HTTP/1.1" 400 56
+[27/Nov/2025 12:14:01] "POST /api/polls/ HTTP/1.1" 201 268
+[27/Nov/2025 12:14:07] "POST /api/polls/2/vote/ HTTP/1.1" 201 40
+[27/Nov/2025 12:14:14] "POST /api/polls/2/vote/ HTTP/1.1" 201 40
+[27/Nov/2025 12:14:14] "POST /api/polls/2/vote/ HTTP/1.1" 201 40
+[27/Nov/2025 12:14:14] "POST /api/polls/2/vote/ HTTP/1.1" 201 40
+[27/Nov/2025 12:14:21] "GET /api/polls/2/results/ HTTP/1.1" 200 121
+Bad Request: /api/polls/2/vote/
+[27/Nov/2025 12:14:26] "POST /api/polls/2/vote/ HTTP/1.1" 400 61
+[27/Nov/2025 12:14:32] "GET /api/polls/ HTTP/1.1" 200 270
+[27/Nov/2025 12:15:37] "GET /api/polls/ HTTP/1.1" 200 270
+[27/Nov/2025 12:16:14] "GET /api/polls/2/results/ HTTP/1.1" 200 121
+[27/Nov/2025 12:16:33] "POST /api/polls/2/vote/ HTTP/1.1" 201 40
+[27/Nov/2025 12:16:42] "GET /api/polls/2/results/ HTTP/1.1" 200 121
