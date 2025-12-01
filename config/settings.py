@@ -15,6 +15,11 @@ from decouple import config
 from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+ALLOWED_HOSTS = [
+    "web-production-2fd5e.up.railway.app",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Quick-start development settings - unsuitable for production
